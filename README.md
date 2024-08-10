@@ -1,4 +1,3 @@
----
 
 **README - Lab Assignment 1: Computer Organization and Architecture**
 
@@ -16,4 +15,3 @@ This assignment includes two assembly language programs:
 
 Both programs are assembled to run starting at memory location `100h`.
 
----
