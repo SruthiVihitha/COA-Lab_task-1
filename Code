@@ -1,0 +1,35 @@
+Q. Write a program in assembly language to print “Hello World”.
+CODE:
+org 100h
+
+jmp start
+
+msg:    db      "Hello World!", 0Dh,0Ah, 24h
+
+start:  mov     dx, msg
+           mov     ah, 09h 
+           int     21h 
+        
+           mov     ah, 0 
+           int     16h 
+
+ret
+
+
+Q. Write an assembly language program to print your name.
+CODE:
+org 100h
+
+jmp start
+
+msg:    db      "Sruthi!", 0Dh,0Ah, 24h
+
+start:  mov     dx, msg
+           mov     ah, 09h 
+           int     21h 
+        
+           mov     ah, 0 
+           int     16h 
+
+ret
+ 
